@@ -23,7 +23,7 @@ class Coffee:
        #    if order.customer not in customerList:
        #         customerList.append(order.customer)
        # return customerList
-       return list(set(map(lambda order: order.customer, self.orders())))
+         return list(set(map(lambda order: order.customer, self.orders())))
     
 
     def num_orders(self):
